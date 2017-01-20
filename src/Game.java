@@ -51,7 +51,7 @@ public class Game {
             }
             else {
                 newPosition = player.getPosition() + dice.getDice1() + dice.getDice2();
-                if (newPosition >= Board.MAX) {
+                if (newPosition > Board.MAX) {
                     print("Get $200 for passing Go!");
                     player.addMoney(200); // for landing/passing GO.
                     player.setPosition(newPosition - Board.MAX - 1);
