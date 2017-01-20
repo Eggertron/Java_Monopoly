@@ -22,4 +22,24 @@ public class Player {
         this.money = money;
         position = 0;
     }
+    
+    public int getPosition() {
+        return position;
+    }
+    
+    public void setPosition(int p) {
+        position = p;
+    }
+    
+    public void addMoney(int m) {
+        money += m;
+    }
+    
+    public int getMoney() {
+        return money;
+    }
+    
+    public String getName() {
+        return name;
+    }
 }
