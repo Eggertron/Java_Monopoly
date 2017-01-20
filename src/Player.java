@@ -4,11 +4,13 @@ public class Player {
     private String name;
     private int money;
     private int position;
+    private boolean inJail;
     private List<Properties> properties;
     
     public Player() {
         money = 1500;
         position = 0;
+        inJail = false;
         //properties = new List<Properties>();
     }
     
@@ -20,7 +22,6 @@ public class Player {
     public Player(String name, int money) {
         this(name);
         this.money = money;
-        position = 0;
     }
     
     public int getPosition() {
