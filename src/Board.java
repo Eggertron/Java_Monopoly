@@ -34,7 +34,7 @@ public class Board {
         properties[0].type = Board.type.GO;
         properties[0].name = "GO";
         
-        properties[5].type = Board.type.PROPERTY;
+        properties[1].type = Board.type.PROPERTY;
         properties[1].name = "Mediterranean Avenue";
         properties[1].value = 60;
         properties[1].rent = 2;

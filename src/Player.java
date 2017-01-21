@@ -1,3 +1,4 @@
+import java.util.LinkedList;
 import java.util.List;
 
 public class Player {
@@ -5,13 +6,13 @@ public class Player {
     private int money;
     private int position;
     private boolean inJail;
-    private List<Properties> properties;
+    List<Properties> properties;
     
     public Player() {
         money = 1500;
         position = 0;
         inJail = false;
-        //properties = new List<Properties>();
+        properties = new LinkedList<Properties>();
     }
     
     public Player(String name) {
